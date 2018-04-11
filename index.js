@@ -21,8 +21,8 @@ const nodemailer = require('nodemailer')
 //////////////////////////////////////////////////////////////////////////////////
 
 // https://www.binance.com/restapipub.html
-const APIKEY = 'xxx'
-const APISECRET = 'xxx'
+const APIKEY = '6liuYgqZ6WrwNuToLDbMLQZ6NqjMKgk4fulPfz7uxU49AR1748MrmPeI5EIFQW61'
+const APISECRET = 'z8Om1l0iqpGtWF8AInrUBgb1GDnzDeSr3c6oeiOKL0vXDn7cWNkm23fdB0UFWxgP'
 
 const tracked_max = 10
 const depth_limit = 10
@@ -32,9 +32,9 @@ const trading_fee = 0.1 		// pourcent
 const sound_alert = false
 
 // https://medium.com/@manojsinghnegi/sending-an-email-using-nodemailer-gmail-7cfa0712a799
-const send_email = false
-const gmail_address = 'xxx@gmail.com'
-const gmail_password = 'xxx'
+const send_email = true
+const gmail_address = 'jephjnr18@gmail.com'
+const gmail_password = 'jephjab18'
 const gmailEmail = encodeURIComponent(gmail_address);
 const gmailPassword = encodeURIComponent(gmail_password);
 const mailTransport = nodemailer.createTransport(`smtps://${gmailEmail}:${gmailPassword}@smtp.gmail.com`);

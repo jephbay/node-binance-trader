@@ -34,7 +34,7 @@ const sound_alert = false
 // https://medium.com/@manojsinghnegi/sending-an-email-using-nodemailer-gmail-7cfa0712a799
 const send_email = true
 const gmail_address = 'jephjnr18@gmail.com'
-const gmail_password = 'jephjab18'
+const gmail_password = 'jephjnr18'
 const gmailEmail = encodeURIComponent(gmail_address);
 const gmailPassword = encodeURIComponent(gmail_password);
 const mailTransport = nodemailer.createTransport(`smtps://${gmailEmail}:${gmailPassword}@smtp.gmail.com`);
